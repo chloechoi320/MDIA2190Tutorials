@@ -1,15 +1,40 @@
 import React from 'react';
 import CustomButton from '../comps/CustomButton';
 import Header from '../comps/Header';
+import Input from '../comps/Input';
+import Chat from '../comps/Chat';
+import ChatPage from '../pages/ChatPage';
 
 export default {
-    title:"Custom Button",
+    title:"My comps",
     component:CustomButton
 };
 
 export const MyCustomButton = () => <CustomButton />;
 
-export const PageWithCustomButtons = () => <div>
+function CancelClick(){
+    alert("Successfully Canceled");
+}
+
+export const MyCustomButtonWithOptions = () => <CustomButton 
+color="#999"
+text="Cancel"
+onClick={CancelClick}
+/>;
+
+export const MyHeader = () => <Header />;
+
+export const MyInput = () => <Input />;
+
+export const MyInputWithPlaceholder = () => <Input 
+    placeholder="Custom Placeholder"
+/>;
+export const MyChat = () => <Chat />;
+
+export const MyChatPage = () => <ChatPage />;
+
+
+/*export const PageWithCustomButtons = () => <div>
     <Header
         htext="About" 
         fontsize="12px"
@@ -75,4 +100,4 @@ function bOver(){
 
 function cOver(){
     alert("Mouse over 3");
-}
+} */
