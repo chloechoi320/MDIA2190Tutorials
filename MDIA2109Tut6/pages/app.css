@@ -1,0 +1,16 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+#index {
+    color: #7c211e;
+}
+
+#mainapp button {
+    background-color: #FAFAFA;
+    color: rgb(218, 95, 136);
+    margin-right: 7px;
+    margin-top: 10px;
+}
