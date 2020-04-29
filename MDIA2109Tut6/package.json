@@ -27,9 +27,12 @@
     "next-images": "^1.4.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-icons": "^3.9.0"
+    "react-icons": "^3.9.0",
+    "webpack": "^4.43.0"
+
   },
   "devDependencies": {
+
     "@babel/core": "^7.9.0",
     "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-links": "^5.3.18",
